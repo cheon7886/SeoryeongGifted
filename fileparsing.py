@@ -20,7 +20,17 @@ def replaceKAKAO(file):
 	if " 보기드문남자♥ " in line:
 	    line = line.replace(" 보기드문남자♥ ", "counter")
 
-
 	sys.stdout.write(line)
 
+def remove_12line(file):
+    for line_number, line in enumerate(fileinput.input(file, inplace=1)):
+	if line_number == 0:
+	    continue
+	if line_number == 1:
+	    continue
+	else:
+	    sys.stdout.write(line)
+
+remove_12line("Downloads/KakaoTalkChats.txt")
 replaceKAKAO("Downloads/KakaoTalkChats.txt")
+
