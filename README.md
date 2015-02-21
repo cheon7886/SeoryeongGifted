@@ -1,7 +1,7 @@
-#SeoryeongGifted
+#XeonPulse
 ===============
 
-Academia for Gifted Student in Seoryeong High School Github repository
+Project for Mentality Conjecturing System By Using Big Data
 
 This repository contains some python script for data analyzing.
 
