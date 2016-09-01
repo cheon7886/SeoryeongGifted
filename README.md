@@ -1,6 +1,8 @@
 #XeonPulse
 
-Project for Mentality Conjecturing System By Using Big Data
+Project for Mathematical Psychologic Analysis By Using Messenger Logs
+
+**optparse was deprecated from python, and argparse is newer version. So this code cannot be used by current version of python. We'll work with this problem as soon as possible.**
 
 This repository contains some python script for data analyzing.
 
@@ -10,27 +12,28 @@ Thank you.
 
 ##Usage
 
-This code need some time if you have large file, so i recommend PyPy.
+We categrized processes of data analysis by three codes, to have a compatibility with parallel processing. 
 
+In the case of large files, we recommend PyPy.    
 You can install it like this(if you use Ubuntu):
 
     'sudo apt-get install pypy'
 
-If not, you need to build fully with [raw binary](http://pypy.org/download.html).
+Build source can be found from here: [raw binary](http://pypy.org/download.html).
 
 ##Run
 
 This code is for linux users, So i used option parsing for convenience.
 
-Fileparsing.py: this is for making raw KakaoTalk file into data minable csv file.
+Fileparsing.py: make raw a KakaoTalk log into parsable-formed csv file.    
 It delete korean strings and replace senders' name.
 
     sudo python fileparsing.py -c <countername> -d <directory> -o <outputfile>
     
-CSVRefiner.py: this is for making csv file's times into minute-series.
+CSVRefiner.py: refine csv file's times into minute-series.
 
     sudo python CSVRefiner.py -f <filedirectory> -o <outputdir>
 
-FinalSorter.py: this is for selecting useful keyword, one sender, and try cumulative summing.
+FinalSorter.py: select useful keyword of specific sender, and run cumulative summing.
 
     sudo python FinalSorter.py -w <whoname> -k <keyword> -d <directory>
