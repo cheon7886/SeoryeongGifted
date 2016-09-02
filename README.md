@@ -21,11 +21,11 @@ and **'elements'** group contains coordinates made from three codes below.
 every element have relationship with each other, and that 'relationship' is named **affection rate**(residual value).
 <img src="https://github.com/cheon7886/XeonPulse/blob/master/img/AffRate.png" width="140px">
 
-| Keyword: "이모티콘"(3122 found)| Keyword: "ㅎ"(642 found)|
-| :-------------: |:-------------:|
-| img1      | img4 |
-| img2      | img5      |
-| img3 | img6     |
+|Stage of Process| Keyword: "이모티콘"(3122 found)| Keyword: "ㅎ"(642 found)|
+| :-------------: | :-------------: |:-------------:|
+|**Refined Data**| <img src="https://github.com/cheon7886/XeonPulse/blob/readme/img/emo3.png"> | <img src="https://github.com/cheon7886/XeonPulse/blob/readme/img/h03.png"> |
+|**After Regression**| <img src="https://github.com/cheon7886/XeonPulse/blob/readme/img/emo1.png"> | <img src="https://github.com/cheon7886/XeonPulse/blob/readme/img/h01.png"> |
+|**The Derivative**| <img src="https://github.com/cheon7886/XeonPulse/blob/readme/img/emo2.png"> | <img src="https://github.com/cheon7886/XeonPulse/blob/readme/img/h02.png"> |
 
 ##Algorithm
 
