@@ -10,6 +10,19 @@ We're working for making a mind analyzing framework, and for long-term evolution
 
 Thank you.
 
+##Model
+
+<img src="https://github.com/cheon7886/XeonPulse/blob/master/img/Topology.png" width="400px">
+
+We defined psychological model like above: this consists of **layers :** <img src="https://github.com/cheon7886/XeonPulse/blob/master/img/Entry.png" width="180px">,    
+which are constructed by **elements :** <img src="https://github.com/cheon7886/XeonPulse/blob/master/img/Layer.png" width="180px">    
+and **'elements'** group contains coordinates made from three codes below.
+<img src="https://github.com/cheon7886/XeonPulse/blob/master/img/Element.png" width="265px">    
+every element have relationship with each other, and that 'relationship' is named **affection rate**(residual value).
+<img src="https://github.com/cheon7886/XeonPulse/blob/master/img/AffRate.png" width="140px">
+
+##Algorithm
+
 ##Usage
 
 We categrized processes of data analysis by three codes, to have a compatibility with parallel processing. 
