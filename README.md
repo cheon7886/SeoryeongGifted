@@ -34,8 +34,8 @@ table of below indicates visual representation of text processing.
 
 Second, run codes to generate affection rates. that's what are the prerequisities to run psychologic analysis.    
 So.. where is the main codes? **Because of author's preparation of college admission, This project will be restarted after 2017.**    
-There are some ideas to this project.
-**Auto Keyword Searching**: Currently researchers have to choose keyword to make element manually. I'm thinking this can be done by comparing every affection rate of each keyword.
+There are some ideas to this project.    
+**Auto Keyword Searching**: Currently researchers have to choose keyword to make element manually. I'm thinking this can be done by comparing every affection rate of each keyword.    
 **Native regression analysis**: I used WolframAlpha, and Sigmaflot to generate regression curve. It'll be replaced by python codes(Numpy Regression or interpolation.
 
 ##How to Run
