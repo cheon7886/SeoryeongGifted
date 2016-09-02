@@ -21,6 +21,12 @@ and **'elements'** group contains coordinates made from three codes below.
 every element have relationship with each other, and that 'relationship' is named **affection rate**(residual value).
 <img src="https://github.com/cheon7886/XeonPulse/blob/master/img/AffRate.png" width="140px">
 
+| Keyword: "이모티콘"(3122 found)| Keyword: "ㅎ"(642 found)|
+| :-------------: |:-------------:|
+| img1      | img4 |
+| img2      | img5      |
+| img3 | img6     |
+
 ##Algorithm
 
 ##Usage
