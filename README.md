@@ -1,6 +1,6 @@
 #XeonPulse
 
-Project for Mathematical Psychologic Analysis By Using Messenger Logs
+Project for Mathematical Psychological Analysis By Using Messenger Logs
 
 **optparse was deprecated from python, and argparse is newer version. So this code cannot be used by current version of python. We'll work with this problem as soon as possible.**
 
